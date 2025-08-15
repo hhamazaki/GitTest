@@ -12,6 +12,9 @@ working_dir <- 'c:/Projects/Escapement_quality/Deshka/'
 # Enter the name of data file  
 data_file1 <- 'Deshka_ASL.csv'
 data_file2 <- 'Deshka_BRD.csv'
+data_file3 <- 'Deshka_BRD.csv'
+data_file4 <- 'Deshka_BRD.csv'
+
 #'------------------------------------------------------------------------------
 #   1.0 Read source file 
 #'------------------------------------------------------------------------------
@@ -21,7 +24,7 @@ source('C:/Projects/Escapement_Quality/R_functions/JAGS_SR.R')
 # 1.1 read ASL table and clean up for analyses. 
 #'------------------------------------------------------------------------------
 # Clean data and combine test and comfish data
-o.size <- read.csv(file.path(working_dir,data_file1), na.strings ='', stringsAsFactors =FALSE,header = TRUE )
+o2.size <- read.csv(file.path(working_dir,data_file1), na.strings ='', stringsAsFactors =FALSE,header = TRUE )
 
 # Define size
 o.size$large <- ifelse(o.size$Length.mean >= 750,1,0) 
