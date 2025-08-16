@@ -1,0 +1,13 @@
+name: GitTest2
+title: GitTest2
+username: hamachan
+account: hamachan
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 15213110
+bundleId: 10778582
+url: https://hamachan.shinyapps.io/GitTest2/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Esc_quality_Deshka.r
